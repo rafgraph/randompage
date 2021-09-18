@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Random Page</title>
+  </head>
+  <body>
+    <script>
+      "use strict";
+      const pages = [
+        "https://www.washingtonpost.com",
+        "https://www.economist.com",
+        "https://www.foreignaffairs.com",
+        "https://www.ted.com",
+        "https://www.cnbc.com",
+      ];
+      const randomIndex = Math.floor(Math.random() * pages.length);
+      window.location = pages[randomIndex];
+    </script>
+  </body>
+</html>
